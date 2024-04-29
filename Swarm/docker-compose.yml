@@ -1,5 +1,3 @@
-networks:
-  cluster_almacen_default:
 services:
   db:
     image: mysql:5.7
@@ -42,3 +40,5 @@ services:
       - usuarios
       - productos
       - ordenes
+networks:
+  cluster_almacen_default:
